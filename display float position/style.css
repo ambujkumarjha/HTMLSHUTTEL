@@ -1,0 +1,25 @@
+.header_text{
+    color:rgb(183, 6, 6);
+    background-color: rgb(74, 57, 37);
+    font-style: italic;
+}
+.red_boder{
+    border: 2px solid brown;
+}
+p{
+    display: inline;
+}
+p{
+    display: block;
+    width: 400px;
+    margin: 40px;
+    display: inline-block;
+}
+a{
+    width: 400px;
+    display: inline-block;
+}
+img{
+    display: none;
+    width: 400px;
+}

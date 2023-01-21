@@ -1,0 +1,24 @@
+/* h1{
+    background-color: black;
+}
+p{
+    border: solid blueviolet;
+} */
+
+* {
+  font-style: italic;
+}
+.red_border{
+    background-color:rgb(15, 128, 116);
+    border: 5px solid rgb(123, 4, 68) ;
+}
+#loram_text{
+    font-weight: bold;
+}
+header h1{
+    color: rgb(85, 0, 14);
+}
+h2,h4{
+background-color: burlywood;
+background-color: rgb(55, 99,77);
+}
