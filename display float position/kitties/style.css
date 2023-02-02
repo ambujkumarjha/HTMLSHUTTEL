@@ -31,21 +31,28 @@ body{
     background-color: lightpink;
 }
 .container{
-    width: 80%;
+    width: 90%;
     margin-inline: auto;
     background-color: rgb(19, 112, 193);
-}
-.text-box{
-    width: 90%;
-    background-color: white;
-    padding: 40px;
-    border-radius: 10px;
-
+    position: relative;
+    border-radius: 15px;
+    /* position: absolute; */
+    /* position: fixed; */
 }
 .kitte{
     width: 180px;
     position: relative;
     top: 120px;
+    left: 50px;
+    /* position: fixed; */
+    position: sticky;
+}
+.text-box{
+    width: 75%;
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+
 }
 .kitties{
     width: 200px;
@@ -61,13 +68,16 @@ body{
 .bottompara{
     clear: right;
 } */
+.spacer{
+    height: 200vh;
+}
 .text-wrapper{
    
-     width: 200px;
+    width: 200px;
     height: 200px;
      border: 2px solid brown;
      /* overflow: hidden; */
-    /* overflow: scroll; */
+     /* overflow: scroll; */
     overflow: auto;
 
 }
