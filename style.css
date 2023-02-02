@@ -1,53 +1,58 @@
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
-    
 }
-.nav_bar{
-    background-color: black;
-    color: white;
-}
-body{
-    
-    background-color: antiquewhite;
-}
-ul{
-    list-style: none ;
-    text-align: end;
-    padding: 30px;
-}
-li
-{
-    color: white;
-    display: inline;
-    font-size: 1.6rem;
-    padding-inline: 20px;
-}
-.hero-left{
-    display: inline-block;
-    width: 60%;
-    margin-top: 20vh;
-    margin-left: 20vh;
-}
-.heading{
-    font-size: 3rem;
-    
-}
-.subheading{
-    margin-top: 20px;
+.container{
+    height: 200px;
+    border: 2px solid yellowgreen;
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse;*/
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* flex-flow: row nowrap; */
+    /* justify-content: flex-end; */
+    /* justify-content: baseline; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* gap: 10px; */
+    /* align-items: baseline; */
+   /* align-items: stretch; by default  */
+   flex-flow: row nowrap;
+   justify-content: center;
+   align-items: center;
+   /* align-content: flex-start ; */
+   /* row-gap: 40px;
+   column-gap: 40px; */
+   /* gap: 10px; */
+   /* align-content: space-around; */
 
+    
+} 
+.box{
+    border: 2px solid maroon;
+    /* width: 60px; */
+    flex-basis: 25%;
+    /* flex-grow: 1; */
 }
-.cta-explore-more{
-    margin-top: 20px;
-    padding: 20px 6opx ;
+#box-3{
+    /* order: 1; */
+    /* flex-shrink: 20; */
+    /* flex-basis: 200px; */
 }
-.hero-image{
-    width: 20vw;
-    float: right;
-    margin-top: 20vh;
-    margin-right: 20px;
+#box-2{
+    /* order: 5; */
+    /* flex-grow: 7; */
 }
-footer{
-    height: 30px;
+#box-5
+{
+    flex: 0 5 150;
+    /* order:3 */
+    /* flex-grow: 4; */
+    
+}
+#box-6{
+    align-self: stretch;
+    
 }
