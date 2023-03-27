@@ -1,6 +1,14 @@
 .box{
-    height: 100px;
-    width: 100px;
-    background-color: palegoldenrod;
-    margin: 40px auto;
+    height: 200px;
+    width: 200px;
+    color: white;
+    background-color: #ccc;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+.original{
+    background-color: purple;
+    transform: scale(0.4);
+
 }
