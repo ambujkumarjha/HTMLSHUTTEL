@@ -1,0 +1,30 @@
+*{
+ margin: 0;
+ box-sizing: border-box;
+}
+:root{
+    --brown-color:rgb(72, 32, 32);
+    --text_size:1.2rem;
+
+}
+
+
+.container{
+    width:calc( 100% - 80px );
+    /* width: min(100%,800px);
+    width: max(50%,300px,70vh); */     
+    /* aspect-ratio: 1/1; */
+    border: solid yellow 4px;
+    margin-inline: auto;
+}
+.box{
+    display: inline-block;
+    
+    /* width:  calc(200px/4); */
+    border: solid green 2px
+}
+button {
+    background-color: var(--brown-color);
+    padding: 10px 40px;
+    
+}
