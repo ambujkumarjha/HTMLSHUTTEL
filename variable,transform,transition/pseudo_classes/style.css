@@ -5,10 +5,63 @@
     justify-content: center;
     align-items: center;
 }
-a{
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+.box::before{
+    content: 'before';
+    position: absolute;
+    color: white;
+    background-color: rgb(11, 215, 62);
+}
+
+   
+.box::after{
+    content: 'after';
+    position: absolute;
+    color:wheat;
+    background-color: rgb(2, 117, 163);
+}
+
+
+
+
+/* a{
     font-size: 4rem;
+}
+
+.Click-tag:visited{
+    color: black;
 }
 .Click-tag:hover{
     color: brown;
 
+} */
+/* an+b */
+/* li:first-child{
+    background-color: brown;
 }
+li:last-child{
+    font-size: 6rem;
+}
+li:nth-child(5){
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4rem;
+}
+li:nth-child(2n){
+background-color: aquamarine;
+}
+li:nth-child(2n+1)
+{
+    background-color: brown;
+}
+p::first-line{
+    font-size: 2rem;
+}
+p::first-letter{
+    font-size: 6rem;
+    background-color: aliceblue
+    ;
+} */

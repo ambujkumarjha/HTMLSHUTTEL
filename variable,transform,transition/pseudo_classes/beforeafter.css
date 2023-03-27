@@ -1,0 +1,9 @@
+p{
+    font-size: 3rem;
+}
+p::before{
+    content: " This is the message ";
+}
+p::after{
+    content:" hello brother enter "
+}
